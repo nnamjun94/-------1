@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jun market</title>
+    <!-- css -->
+    <!-- javascript -->
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+</head>
+
+<body>
+    <header>
+        <div class="top1">
+            <div>
+                <div class="top_left">
+                    <div class="bookmark">
+                        <a href="javascript:CreatBookmarkLink();">ADD Bookmark</a>
+                    </div>
+                    <!-- 검색창 -->
+                    <input id="keyword" type="text" />
+                </div>
+            </div>
+            <div class="log">
+                <ul>
+                    <li>login</li>
+                    <li>join</li>
+                    <li>cart</li>
+                    <li>order</li>
+                    <li>mypage</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="top_logo">
+            <img src="/static/준마켓 로고1.png" alt="LOGO">
+        </div>
+
+        <div class="top_cs">
+            <div class="top_call" onmouseover="">
+                call center+
+            </div>
+            <div class="top_bank">
+                Bank Info+
+            </div>
+        </div>
+        <div>
+            <hr color="gray">
+        </div>
+
+        <div class="main_board">
+            <div class="main_menu">
+                <ul>
+                    <li>BEST ITEM</li>
+                    <li>NEW 5%</li>
+                    <li>OUTER</li>
+                    <li>TOP</li>
+                    <li>DRESS</li>
+                    <li>BOTTOM</li>
+                    <li>SHOE & BAG</li>
+                    <li>ACCESSORY</li>
+                    <li>MADE</li>
+                    <li>EASYWEAR</li>
+                    <li>SET</li>
+                </ul>
+            </div>
+            <div class="main_menu_right">
+                <ul>
+                    <li>NOTICE</li>
+                    <li>Q&A</li>
+                    <li>REVIEW</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_board_bottom">
+            <hr>
+        </div>
+
+        <div class="wrapper">
+            <div class="box b"><img src="/static/더무드1.png" alt="" style="width: 700px; height: 740px;"></div>
+            <div class="box a"><img src="/static/더무드2.jpg" alt="" style="width: 490px; height: 365px;"></div>
+            <div class="box c"><img src="/static/더무드3.jpg" alt="" style="width:  490px; height: 365px;"></div>
+        </div>
+
+    </header>
+    <!-- 사진 시작 -->
+    <div id="contents">
+        <h2> NEW & BEST ITEM</h2>
+    </div>
+
+    <div id="product">
+        <ul class="cloth_colums3">
+            <li class="cc1">
+                <div class="thumnail">
+                    <div>
+                        <a href="index2.html">
+                            <img src="/static/aaa112121212.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>베비토 점프수트(jumpsuit)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">23,000원</span><br>
+                    <span style="color: #b50024;">21,900원</span><br>
+                    살랑이는 실루엣이 여성스러운 이너팬츠 점프수트.
+                </div>
+            </li>
+            <li class="cc2">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/aa2.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>COOL슬림라인 팬츠(PT))</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">23,000원</span><br>
+                    <span style="color: #b50024;">18,000원</span><br>
+                    쿨링감 느껴지는 소재로 돌아온 [슬림아트 팬츠] 여름ver.
+                    롱&숏 완벽핏 마약팬츠.
+                </div>
+            </li>
+            <li class="cc3">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/aa3.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>리버엘셔링 원피스(OPS)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">49,000원</span><br>
+                    <span style="color: #b50024;">39,500원</span><br>
+                    핫바디 완성해줄 완벽 실루엣 원핏.
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="product">
+        <ul class="cloth_colums3">
+            <li class="cc1">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b1.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>젤로드 티셔츠(Tee)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">18,000원</span><br>
+                    <span style="color: #b50024;">17,100원</span><br>
+                    살랑이는 실루엣이 여성스러운 이너팬츠 점프수트.
+                </div>
+            </li>
+            <li class="cc2">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b2.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>로머닌 점프수트(Jumpsuit)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">54,800원</span><br>
+                    <span style="color: #b50024;">52,100원</span><br>
+                    편안함과 스타일을 동시에 만족시킬 와이드 린넨 점프수트.
+                </div>
+            </li>
+            <li class="cc3">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b3.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>쇼니 셔츠(SH)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">20,000원</span><br>
+                    <span style="color: #b50024;">19,000원</span><br>
+                    미니멀한 실루엣의 깔끔한 크롭 셔츠.
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="product">
+        <ul class="cloth_colums3">
+            <li class="cc1">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b4.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>썸플리츠 티셔츠(Tee)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">26,800원</span><br>
+                    <span style="color: #b50024;">25,500원</span><br>
+                    세트로 입으면 더욱 예쁜 플리츠 크롭 티셔츠.
+                </div>
+            </li>
+            <li class="cc2">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b5.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>루플라버튼 원피스(OPS)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">66,000원</span><br>
+                    <span style="color: #b50024;">62,700원</span><br>
+                    휴양지룩 추천! 취향저격 맥시 롱 오프 원핏.
+                </div>
+            </li>
+            <li class="cc3">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b6.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>컴베트 니트(NT)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">37,800원</span><br>
+                    <span style="color: #b50024;">36,000원</span><br>
+                    여름시즌 필수인 성글한 짜임의 밑단슬릿 니트.
+                </div>
+            </li>
+        </ul>
+    </div>
+    <div id="product">
+        <ul class="cloth_colums3">
+            <li class="cc1">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b7.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>포니어 티셔츠(Tee)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">14,000원</span><br>
+                    <span style="color: #b50024;">13,300원</span><br>
+                    케쥬얼하게 연출좋은 나염 포인 반팔 티셔츠.
+                </div>
+            </li>
+            <li class="cc2">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b8.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>루플라버튼 원피스(OPS)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">66,000원</span><br>
+                    <span style="color: #b50024;">62,700원</span><br>
+                    휴양지룩 추천! 취향저격 맥시 롱 오프 원핏.
+                </div>
+            </li>
+            <li class="cc3">
+                <div class="thumnail">
+                    <div>
+                        <a href="">
+                            <img src="/static/b9.webp" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="description">
+                    <p>슈윈 나시(NS)</p>
+                    <span style="font: size 11px;color: #000000; text-decoration: line-through;">21,000원</span><br>
+                    <span style="color: #b50024;">20,000원</span><br>
+                    웨이브라인으로 네크라인이 돋보이는 슬리브리스 탑.
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="page">
+        <hr>
+        <div class="page_number">
+            <a href="">1</a>
+            <a href="">2</a>
+            <a href="">3</a>
+            <a href="">4</a>
+            <a href="">5</a>
+            <a href="">6</a>
+        </div>
+        <div class="page_hr">
+            <hr>
+
+        </div>
+    </div>
+    <div class="footer">
+        <div>
+            <ul>
+                <li>HOME</li>
+                <li>COMPANY</li>
+                <li>AGREEMENT</li>
+                <li>PRIVACY POLICY</li>
+                <li>GUIDE</li>
+            </ul>
+        </div>
+
+    </div>
+    <div>
+        <hr>
+    </div>
+    <div class="phone">
+        <img src="/static/더무드 푸터 .jpg" alt="" style="margin-top: 35px;">
+        <div>
+            <hr>
+        </div>
+    </div>
+    <div class="footer_info">
+        <div class="fi_1">
+            <b>call center</b><br>
+            010-5314-1491<br>
+            MON-FRI AM10-PM 7<br>
+            SAT, SUN, HOLIDAY OFF
+        </div>
+        <div class="fi_2">
+            <b>bank Info</b><br>
+            국민 6905002-01-189771<br>
+            신한 010-5314-1491
+        </div>
+        <div class="fi_3">
+            <b>COMPANY Info</b><br>
+            COMPANY (주)디자인준 CEO 박남준<br>
+            TEL 010-5314-1491<br>
+            반품주소지 서울특별시 강서구 강서로 58-283 성북A터미널 SH로지스 (주)디자인준<br>
+            WEB MASTER 박남준 (nnamjun94@naver.com)<br>
+            BUSINESS LICENSE 000-00-00000<br>
+            MAIN-ORDER LICENSE 제2020-서울강서-0000호 [사업자정보확인]<br>
+            ADDRESS 142-070 서울특별시 강북구 수유동 535-144 (주)디자인준 (반품주소아님)<br>
+        </div>
+    </div>
+
+    <div class="copyright">
+        COPYRIGHT © THEMOOD ALL RIGHT RESERVED. DESIGNED BY jun1491
+    </div>
+</body>
+
+
+</html>

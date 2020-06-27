@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="kr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jun market</title>
+    <!-- css -->
+    <!-- javascript -->
+    <script src="./main.js"></script>
+    <link rel="stylesheet" href="{{ url_for('static', filename='index.css') }}">
+    <link rel="stylesheet" href="/static/index.css">
+</head>
+
+<body>
+    <header>
+        <div class="top1">
+            <div>
+                <div class="top_left">
+                    <div class="bookmark">
+                        <a href="javascript:CreatBookmarkLink();">ADD Bookmark</a>
+                    </div>
+                    <!-- 검색창 -->
+                    <input id="keyword" type="text" />
+                </div>
+            </div>
+            <div class="log">
+                <ul>
+                    <li>login</li>
+                    <li>join</li>
+                    <li>cart</li>
+                    <li>order</li>
+                    <li>mypage</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="top_logo">
+            <img src="/static/준마켓 로고1.png" alt="LOGO">
+        </div>
+
+        <div class="top_cs">
+            <div class="top_call" onmouseover="">
+                call center+
+            </div>
+            <div class="top_bank">
+                Bank Info+
+            </div>
+        </div>
+        <div>
+            <hr color="gray">
+        </div>
+
+        <div class="main_board">
+            <div class="main_menu">
+                <ul>
+                    <li>BEST ITEM</li>
+                    <li>NEW 5%</li>
+                    <li>OUTER</li>
+                    <li>TOP</li>
+                    <li>DRESS</li>
+                    <li>BOTTOM</li>
+                    <li>SHOE & BAG</li>
+                    <li>ACCESSORY</li>
+                    <li>MADE</li>
+                    <li>EASYWEAR</li>
+                    <li>SET</li>
+                </ul>
+            </div>
+            <div class="main_menu_right">
+                <ul>
+                    <li>NOTICE</li>
+                    <li>Q&A</li>
+                    <li>REVIEW</li>
+                </ul>
+            </div>
+        </div>
+        <div class="main_board_bottom">
+            <hr>
+        </div>
+
+    </header>
+    <div class="infoArea" style=" display: grid;
+    grid-template-columns: 700px 200px 300px;
+">
+        <div class="z1" style=" grid-column-start: 1; margin-top: 50px;">
+            <img src="/static/va.jpg" alt="">
+        </div>
+        <div class="z2" style=" grid-column-start: 3; margin-top: 50px;">
+            <div>
+                <hr />
+                <h3>썸머리플리 팬츠</h3>
+
+                <table style="font-family: arial,Dotum,sans-serif;
+font-size: 11px;
+color: #222;
+background: #fff;
+font-weight: 500;
+">
+                    <tr>
+                        <td>판매가</td>
+                        <td style="text-decoration: line-through;">41,000원</td>
+                    </tr>
+                    <tr>
+                        <td>할인판매가</td>
+                        <td>39,000원</td>
+                    </tr>
+                    <tr>
+                        <td>적립금</td>
+                        <td>390원 (1%)</td>
+                    </tr>
+                    <tr>
+                        <td>상품요약정보</td>
+                        <td>플리츠 소재로 구김 걱정없는 맥시기장감 팬츠.</td>
+                    </tr>
+                    <tr>
+                        <td>배송비</td>
+                        <td>2,500원 (50,000원 이상 구매 시 무료)</td>
+                    </tr>
+                    <tr>
+                        <td>Color</td>
+                        <td>
+                            <select name="" id="">
+                                <option value="">[필수] 옵션을 선택해주세요</option>
+                                <option value="">블랙</option>
+                                <option value="">카키</option>
+                            </select>
+                        </td>
+                    <tr>
+                        <td colspan="2">(최소주문수량 1개 이상)</td>
+                    </tr>
+                </table>
+                <hr>
+                <table>
+                    <tr>
+                        <td><b>Total : 0(0개)</b></td>
+                    </tr>
+                </table>
+            </div>
+            <div style="border: solid 3px black ; text-align: center; padding: 40px;
+        margin-top: 30px; font-family: arial,Dotum,sans-serif; font-size: 12px"><b>
+                    BUY IT NOW
+                </b>
+            </div>
+            <div
+                style="border: 1px solid grey; text-align: center; padding: 10px; margin-top: 10px; font-family: arial,Dotum,sans-serif; font-size: 12px">
+                ADD TO CART
+            </div>
+            <div
+                style="border: 1px solid grey; text-align: center; padding: 10px; font-family: arial,Dotum,sans-serif; font-size: 12px;">
+                WISH LIST
+            </div>
+            <hr>
+            <div style="font-family: arial,Dotum,sans-serif;
+        font-size: 11px;
+        color: #222;
+        background: #fff;
+        font-weight: 500;
+        padding: 5px;">
+                Review(97)
+            </div>
+            <hr>
+            <div style="font-family: arial,Dotum,sans-serif;
+        font-size: 11px;
+        color: #222;
+        background: #fff;
+        font-weight: 500;
+        padding: 5px;">
+                Q & A (0)
+            </div>
+            <hr>
+            <div style="font-family: arial,Dotum,sans-serif;
+        font-size: 11px;
+        color: #222;
+        background: #fff;
+        font-weight: 500;
+        padding: 5px;">
+                Social Share
+                <img src="/static/a123.jpg" alt="" style="width: 20px; height:20px; float: right;" onclick="">
+                <img src="/static/insta.png" alt="" style="width: 70px; height:25px; float: right;">
+            </div>
+        </div>
+    </div>
+    <div class="zz1" style="text-align: center; margin-top: 100px;">
+      상품정보 배송정보 관련상품 상품후기 상품문의
+    </div>
+    <hr>
+
+</body>
+
+</html>
